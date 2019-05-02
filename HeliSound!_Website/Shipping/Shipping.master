@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Shipping.master.cs" MasterPageFile="~/Public.Master" Inherits="Shipping_Shipping" %>
+
+<asp:Content ContentPlaceHolderID="MainContent" runat="server">
+<asp:LoginView ID="LoginView1" runat="server">
+     <RoleGroups>
+          <asp:RoleGroup Roles="Administrator">
+               <ContentTemplate>
+                   <div style="color:indianred; font-size:16px; margin:3rem 3rem 3rem 3rem;">
+            <asp:ContentPlaceHolder ID="Shipping" runat="server">
+        
+    </asp:ContentPlaceHolder>    
+                       </div>
+               </ContentTemplate>
+        </asp:RoleGroup>
+         </RoleGroups>
+    </asp:LoginView>
+                </asp:Content>
+

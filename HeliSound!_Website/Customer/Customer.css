@@ -1,0 +1,22 @@
+﻿.cast {
+    position: relative;
+    left: 4.4rem;
+}
+.orderproductlabels {
+    position: relative;
+    left: 4rem;
+    margin-top: .6rem;
+}
+#delivery{
+    position:absolute;
+    top:12rem;
+    left:23rem;
+}
+#gridview{
+    position:absolute;
+    top:12rem;
+    left:44rem;
+}
+.textorder{
+    background-color:blue;
+}

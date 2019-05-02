@@ -1,0 +1,8 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" MasterPageFile="~/Public.Master" CodeFile="Account.Master.cs" Inherits="Account_Account" %>
+
+    <asp:Content ContentPlaceHolderID="MainContent" runat="server">
+        <div style="color:indianred; font-size:16px; margin:3rem 3rem 3rem 3rem;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </div>
+    </asp:ContentPlaceHolder>    
+    </asp:Content>

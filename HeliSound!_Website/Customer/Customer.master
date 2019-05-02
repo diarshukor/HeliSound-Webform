@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" MasterPageFile="~/Public.Master" CodeFile="Customer.master.cs" Inherits="Customer_Customer" %>
+
+    <asp:Content ContentPlaceHolderID="MainContent" runat="server">
+            <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+    
+
+
+                <div  class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item active"><a href="OrderProduct.aspx">Order Products</a></li>
+                                                    <li class="nav-item active"><a href="ViewHistory.aspx">View History</a></li>
+                                <li class="nav-item active"><a href="TrackOrders.aspx">Track Orders</a></li>
+
+                    </ul>
+                </div>
+
+            </nav>
+        &nbsp;&nbsp;
+      
+        &nbsp;&nbsp;
+        
+        &nbsp;&nbsp;
+        
+        &nbsp;&nbsp;
+
+    </div>
+    <div>
+
+    </div>
+        <div style="color:indianred; font-size:16px; margin:3rem 3rem 3rem 3rem;">
+        <asp:ContentPlaceHolder ID="Customer" runat="server"></asp:ContentPlaceHolder>
+
+</div>
+    </asp:Content>

@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Public.Master" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Administration_MasterPage" %>
+
+<asp:Content ContentPlaceHolderID="MainContent" runat="server">
+
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+    
+
+
+                <div  class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item active"> <a href="default.aspx" >Home</a></li>
+        &nbsp;&nbsp;
+       <li class="nav-item active"> <a href="Products.aspx" runat="server">Manage Products</a></li>
+        &nbsp;&nbsp;
+        <li class="nav-item active"><a href="UserMaintenance.aspx" runat="server">Manage Users</a></li>
+        &nbsp;&nbsp;
+        <li class="nav-item active"><a href="Reporting.aspx" runat="server">Reporting</a></li>
+        <li class="nav-item active"><a href="Category.aspx" runat="server">Categories</a></li>
+        <li class="nav-item active"><a href="ProductManagement.aspx" runat="server">Product Management</a></li>
+        <li class="nav-item active"><a href="Roles.aspx" runat="server">Roles</a></li>
+        <li class="nav-item active"><a href="Supplier.aspx" runat="server">Suppliers</a></li>
+        <li class="nav-item active"><a href="TrackOrders.aspx" runat="server">Track Orders</a></li>
+
+                    </ul>
+                </div>
+
+            </nav>
+
+
+    <div style="color:indianred; font-size:16px; margin:3rem 3rem 3rem 3rem;">
+
+                        <asp:ContentPlaceHolder ID="Admin" runat="server">
+                        </asp:ContentPlaceHolder>
+  
+    </div>
+</asp:Content>
